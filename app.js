@@ -52,7 +52,7 @@ class FilaDePrioridade {
   console.log(fila.estaVazia()); // Imprime false (fila não está vazia)
   console.log(fila.quantidade()); // Imprime 3 (quantidade de itens)
   console.log(fila.listar()); // Imprime a lista ordenada por prioridade (Rã, Vaca, Sapo)
-  console.log(fila.remover("Rã")) // Imprime o primeiro item da fila (Rã)
+  console.log(fila.remover("Rã")) // remove o item rã da fila
   console.log(fila.listar()); // Imprime a lista ordenada por prioridade (Vaca, Sapo)
   console.log(fila.primeiro()); // Imprime o primeiro item da fila 
 
